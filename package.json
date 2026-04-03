@@ -1,0 +1,36 @@
+{
+  "name": "ai-news-generator",
+  "version": "1.0.0",
+  "description": "Web que agrega noticias de IA/DS y genera reels + posts LinkedIn",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "extract-news": "node scripts/extractNews.js"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "next": "^14.0.0",
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12",
+    "rss-parser": "^3.13.0",
+    "openai": "^4.26.0",
+    "supabase": "^1.146.0",
+    "@supabase/supabase-js": "^2.39.0",
+    "zod": "^3.22.4",
+    "date-fns": "^2.30.0",
+    "clsx": "^2.0.0",
+    "tailwindcss": "^3.3.0",
+    "autoprefixer": "^10.4.16"
+  },
+  "devDependencies": {
+    "postcss": "^8.4.31"
+  }
+}
